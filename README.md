@@ -37,24 +37,24 @@ A Retrieval-Augmented Generation (RAG) powered chatbot built using the **LangCha
 
 ## Setup Instructions
 
-### 1Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add Your Documents
+### Add Your Documents
 
 * Place your **PDFs or text documents** inside the `data/` folder.
 
-### 4️⃣ Build the Vector Store
+### Build the Vector Store
 
 ```bash
 python ingest.py
@@ -62,7 +62,7 @@ python ingest.py
 
 This step creates the FAISS vector index inside `vectorstore/`.
 
-### 5️⃣ Launch the Streamlit App
+### Launch the Streamlit App
 
 ```bash
 streamlit run app/app.py
@@ -72,17 +72,17 @@ streamlit run app/app.py
 
 ![Entry Page](assets/entry-page.png)
 
-### 6️⃣ Chat with Your Documents
+### Chat with Your Documents
 
 Type your question in the chat box. The chatbot retrieves relevant chunks from your documents and generates an answer.
 
-📸 **Example Q\&A interaction:**
+ **Example Q\&A interaction:**
 
 ![Chatbot Q\&A](assets/qa-page.png)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **LangChain Orchestration Framework**
 * **LLAMA-based Hugging Face models**
@@ -92,7 +92,7 @@ Type your question in the chat box. The chatbot retrieves relevant chunks from y
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Ensure you have **Python 3.9+** installed.
 * Replace `data/` contents with your own files to customize the knowledge base.
@@ -100,6 +100,6 @@ Type your question in the chat box. The chatbot retrieves relevant chunks from y
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source under the MIT License.
