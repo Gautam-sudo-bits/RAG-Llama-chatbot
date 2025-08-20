@@ -68,9 +68,9 @@ This step creates the FAISS vector index inside `vectorstore/`.
 streamlit run app/app.py
 ```
 
-📸 **On successful run, you should see the entry page:**
+**On successful run, you should see the entry page:**
 
-![Entry Page](assets/entry-page.png)
+![Entry Page](asset/entry-page.png)
 
 ### Chat with Your Documents
 
@@ -78,7 +78,7 @@ Type your question in the chat box. The chatbot retrieves relevant chunks from y
 
  **Example Q\&A interaction:**
 
-![Chatbot Q\&A](assets/qa-page.png)
+![Chatbot Q\&A](asset/qa-page.png)
 
 ---
 
