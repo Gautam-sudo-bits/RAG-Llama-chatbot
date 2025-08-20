@@ -1,10 +1,10 @@
-# RAG-based LLAMA Chatbot 🤖📚
+# RAG-based LLAMA Chatbot
 
 A Retrieval-Augmented Generation (RAG) powered chatbot built using the **LangChain Orchestration Framework** and **open-source Hugging Face LLAMA models**. The system supports document-grounded Q\&A, where you can replace the dataset with your own PDFs and interact via a **Streamlit web app**.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ├── app/
@@ -26,7 +26,7 @@ A Retrieval-Augmented Generation (RAG) powered chatbot built using the **LangCha
 
 ---
 
-## 🚀 Features
+## Features
 
 * Retrieval-Augmented chatbot with LLAMA-based embeddings and text generation.
 * Pluggable dataset — replace `data/` with your own PDFs.
@@ -35,9 +35,9 @@ A Retrieval-Augmented Generation (RAG) powered chatbot built using the **LangCha
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
