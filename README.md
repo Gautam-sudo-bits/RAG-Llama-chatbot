@@ -40,8 +40,8 @@ A Retrieval-Augmented Generation (RAG) powered chatbot built using the **LangCha
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/Gautam-sudo-bits/RAG-Llama-chatbot.git
+cd RAG-Llama-chatbot
 ```
 
 ### Install Dependencies
