@@ -70,7 +70,7 @@ streamlit run app/app.py
 
 **On successful run, you should see the entry page:**
 
-![Entry Page](asset/entry-page.png)
+![Entry Page](asset/entry_page.png)
 
 ### Chat with Your Documents
 
@@ -78,7 +78,7 @@ Type your question in the chat box. The chatbot retrieves relevant chunks from y
 
  **Example Q\&A interaction:**
 
-![Chatbot Q\&A](asset/qa-page.png)
+![Chatbot Q\&A](asset/prompt_answer.png)
 
 ---
 
