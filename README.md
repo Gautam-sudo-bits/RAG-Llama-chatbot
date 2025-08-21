@@ -60,7 +60,7 @@ pip install -r requirements.txt
 python ingest.py
 ```
 
-This step creates the FAISS vector index inside `vectorstore/`.
+This step creates the FAISS vector index inside `vectorstore/` and FAISS database file.
 
 ### Launch the Streamlit App
 
