@@ -63,6 +63,7 @@ python ingest.py
 This step creates the FAISS vector index inside `vectorstore/` and FAISS database file.
 
 ### Launch the Streamlit App
+**NOTE** : If you have GPU machine then a larger model like the Llama 3-8B will be downloaded by default. Make sure to have requested the auth_token from authors from Huggingface. Install gpu supprted torch version from the official PyTorch website.
 
 ```bash
 streamlit run app/app.py
